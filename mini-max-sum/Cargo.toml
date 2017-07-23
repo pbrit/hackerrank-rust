@@ -1,0 +1,6 @@
+[package]
+name = "mini-max-sum"
+version = "0.1.0"
+authors = ["Pavel Chechetin <paulche@yandex.ru>"]
+
+[dependencies]
