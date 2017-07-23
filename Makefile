@@ -4,21 +4,16 @@ test:
 	cargo run < ./input.txt | diff - ./output.txt
 	@echo "SUCCESS"
 
-new: $(name)
-
-input: input.txt
-
-output: output.txt
+new: $(name) $(name)/tests $(name)/Makefile
 
 $(name):
 	cargo new $(name) --bin
-	@cd $(name); ln -s ../Makefile 
+	
+$(name)/tests: $(name)
+	mkdir $(name)/tests
+	cd $(name)/tests; curl https://www.hackerrank.com/rest/contests/master/challenges/$(name)/download_testcases > tests.zip
+	cd $(name)/tests; unzip tests.zip; rm -f tests.zip
 
-input.txt: 
-	pbpaste > input.txt
-	echo >> input.txt
-
-output.txt:
-	pbpaste > output.txt
-	echo >> output.txt
+$(name)/Makefile: $(name) $(name)/tests
+	cd $(name); ../scripts/create_makefile.sh  
 	
