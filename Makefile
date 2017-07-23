@@ -8,6 +8,7 @@ new: $(name) $(name)/tests $(name)/Makefile
 
 $(name):
 	cargo new $(name) --bin
+	@wget https://www.hackerrank.com/rest/contests/master/challenges/$(name)/download_pdf?language=English -O $(name)/statement.pdf
 	
 $(name)/tests: $(name)
 	mkdir $(name)/tests
