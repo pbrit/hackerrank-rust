@@ -1,0 +1,7 @@
+[package]
+name = "time-conversion"
+version = "0.1.0"
+authors = ["Pavel Chechetin <paulche@yandex.ru>"]
+
+[dependencies]
+regex = "0.2.2"
