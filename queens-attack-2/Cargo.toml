@@ -1,0 +1,6 @@
+[package]
+name = "queens-attack-2"
+version = "0.1.0"
+authors = ["Pavel Chechetin <paulche@yandex.ru>"]
+
+[dependencies]
