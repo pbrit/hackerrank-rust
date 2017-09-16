@@ -1,0 +1,6 @@
+[package]
+name = "the-story-of-a-tree"
+version = "0.1.0"
+authors = ["Pavel Chechetin <paulche@yandex.ru>"]
+
+[dependencies]
