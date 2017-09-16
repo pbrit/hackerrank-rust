@@ -1,0 +1,6 @@
+[package]
+name = "journey-to-the-moon"
+version = "0.1.0"
+authors = ["Pavel Chechetin <paulche@yandex.ru>"]
+
+[dependencies]
