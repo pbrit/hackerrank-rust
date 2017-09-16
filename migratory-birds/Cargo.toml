@@ -1,0 +1,6 @@
+[package]
+name = "migratory-birds"
+version = "0.1.0"
+authors = ["Pavel Chechetin <paulche@yandex.ru>"]
+
+[dependencies]
