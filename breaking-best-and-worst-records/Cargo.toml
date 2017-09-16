@@ -1,0 +1,6 @@
+[package]
+name = "breaking-best-and-worst-records"
+version = "0.1.0"
+authors = ["Pavel Chechetin <paulche@yandex.ru>"]
+
+[dependencies]
