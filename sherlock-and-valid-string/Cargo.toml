@@ -1,0 +1,6 @@
+[package]
+name = "sherlock-and-valid-string"
+version = "0.1.0"
+authors = ["Pavel Chechetin <paulche@yandex.ru>"]
+
+[dependencies]
